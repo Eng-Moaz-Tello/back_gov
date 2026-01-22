@@ -101,4 +101,5 @@ app.post("/upload", upload.array("files"), async (req, res) => {
   }
 });
 
-app.listen(3001, () => console.log("Server running on port 3001"));
+// app.listen(3001, () => console.log("Server running on port 3001"));
+export default app; 
